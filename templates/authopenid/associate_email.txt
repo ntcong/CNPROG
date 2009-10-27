@@ -1,0 +1,11 @@
+{% load i18n %}
+{% trans "Your account details are:" %}
+
+{% trans "Username:" %} {{ username }}
+{% trans "Password:" %} {{ password }}
+
+{% trans "Please sign in here:" %}
+{{ site_url }}{% trans "signin/" %}
+
+{% blocktrans %}Sincerely,
+Forum Administrator{% endblocktrans %}
